@@ -22,15 +22,10 @@
 2. problem 생성
   
   ```
-  var test = 'test';
-  console.log('test:', test);
+  myproblem = registry.problem('my_problem2')
+  myproblem.generate_data(data_dir, temp_dir, None)
   ```
 3. sample 데이터 입력
-
-4. hyperparameter 수정
-
-5. training
-
-6. evaluation
-
-7. ide change pycharm
+  * my_problem2.py
+4. hyperparameter 수정 후 training evaluation
+  12시간 돌렸는데.. 번역 상태가...pc 업그레이드가 필요한듯

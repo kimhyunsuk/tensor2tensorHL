@@ -19,14 +19,18 @@
   > cd atari-py && make && python setup.py install && pip install "gym[atari]"<br>
   > 환경변수 PYTHONPATH 추가<br>
   > PYTHONPATH -> C:\atari-py:$PYTHONPATH<br>
-2. problem=translate_ende_wmt32k running with pycharm
+2. problem 생성
   
   ```
   var test = 'test';
   console.log('test:', test);
   ```
-3. problem=translate_ende_wmt32k trainning data 축소
+3. sample 데이터 입력
 
-4. custom problem 생성 3번 data 사용
+4. hyperparameter 수정
 
-5. custom problem 에 사용할 custom data 생성
+5. training
+
+6. evaluation
+
+7. ide change pycharm
